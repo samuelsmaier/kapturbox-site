@@ -1,0 +1,20 @@
+.DS_Store
+.playwright-mcp/
+.omc/
+qa/
+*.log
+.claude/
+# unused flight-era / light-mode plates not referenced on dark site
+assets/hermes-motion.mp4
+assets/hermes-motion-dark.mp4
+assets/hermes-cut.png
+assets/hermes-mask.png
+assets/hermes-mask-dark.png
+assets/plates/city-horizon.png
+assets/plates/cloud-a.png
+assets/plates/cloud-b.png
+assets/plates/cloud-a-dark.png
+assets/plates/cloud-b-dark.png
+assets/icons/hermes-head-ref.png
+assets/icons/favicon-source.png
+assets/icons/favicon-preview-128.jpg
