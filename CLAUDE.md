@@ -19,6 +19,15 @@ loved the dolly but not the pattern; the flight code lives in git history.
 ## Run
 `python3 -m http.server 4173` then http://localhost:4173
 
+## Deploy
+GitHub: `https://github.com/samuelsmaier/kapturbox-site`  
+Cloudflare Pages project: `kapturbox-site`  
+```bash
+git archive HEAD | tar -x -C /tmp/kb-pages-deploy
+wrangler pages deploy /tmp/kb-pages-deploy --project-name=kapturbox-site
+```
+Preview: `https://kapturbox-site.pages.dev` (or latest `*.kapturbox-site.pages.dev`)
+
 ## Design law (do not drift)
 - Light engraving ink on charcoal #191b1a. ONE accent: neon pink #ed188f —
   wordmark period, the italic "Retention" in the h1, actions, and small status
